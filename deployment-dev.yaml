@@ -18,7 +18,8 @@ spec:
         - name: docker-creds         # ✅ This matches your secret
       containers:
         - name: flask
-          image: cithit/perezi3:build-34
+          image: image: cithit/perezi3:latest
+
           ports:
             - containerPort: 5000
 ---
